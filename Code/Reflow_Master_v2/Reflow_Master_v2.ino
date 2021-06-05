@@ -65,7 +65,7 @@
 
 // TFT SPI pins
 #define TFT_DC 0
-#define TFT_CS 3
+#define TFT_CS 6
 #define TFT_RESET 1
 
 // MAX 31855 Pins
