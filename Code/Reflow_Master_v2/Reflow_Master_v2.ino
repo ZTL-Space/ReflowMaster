@@ -246,10 +246,10 @@ void LoadPaste()
         Profile graph Y values - temperature
         Length of the graph  ( int, how long if the graph array )
   */
-  float baseGraphX[7] = { 1, 90, 180, 210, 240, 270, 300 }; // time
-  float baseGraphY[7] = { 27, 90, 130, 138, 165, 138, 27 }; // value
+  float baseGraphX0[6] = {  1,  90, 165, 235, 334, 370}; // time
+  float baseGraphY0[6] = { 25, 150, 175, 245, 100,  25}; // value
 
-  solderPaste[0] = ReflowGraph( "CHIPQUIK", "No-Clean Sn42/Bi57.6/Ag0.4", 138, baseGraphX, baseGraphY, ELEMENTS(baseGraphX) );
+  solderPaste[0] = ReflowGraph( "CR 44", "Sn62/Pb36/Ag2/Cu0.5", 240, baseGraphX0, baseGraphY0, ELEMENTS(baseGraphX0) );
 
   float baseGraphX1[7] = { 1, 90, 180, 225, 240, 270, 300 }; // time
   float baseGraphY1[7] = { 25, 150, 175, 190, 210, 125, 50 }; // value
